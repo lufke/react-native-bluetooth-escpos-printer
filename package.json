@@ -2,6 +2,10 @@
   "name": "@pipechela/react-native-bluetooth-escpos-printer",
   "version": "0.0.1",
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lufke/react-native-bluetooth-escpos-printer.git"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "keywords": [
