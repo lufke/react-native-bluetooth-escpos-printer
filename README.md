@@ -367,6 +367,51 @@ Encoding and codepage for diferent languages
 
 https://github.com/januslo/react-native-bluetooth-escpos-printer/issues/66#issuecomment-594432943
 
+```
+Page {codepage} Lang [encoding]
+
+Selects a code page n from the character code table as follows.
+n Character Type Remark (size)
+0 Page 0 USA, Standard Europe [CP437]
+1 Page 1 Katakana
+2 Page 2 Multilingual(Latin-1) [CP850]
+3 Page 3Portuguese [CP860]
+4 Page 4 Canadian-French [CP863]
+5 Page 5 Nordic [CP865]
+6 Page 6 Slavic(Latin-2) [CP852]
+7 Page 7 Turkish [CP857]
+8 Page 8 Greek [CP737]
+9 Page 9 Russian(Cyrillic) [CP866]
+10 Page 10 Hebrew [CP862]
+11 Page 11 Baltic [CP775]
+12 Page 12 Polish
+13 Page 13 Latin-9 [ISO8859-15]
+14 Page 14 Latin1[Win1252]
+15 Page 15 Multilingual Latin I + Euro[CP858]
+16 Page 16 Russian(Cyrillic)[CP855]
+17 Page 17 Russian(Cyrillic)[Win1251]
+18 Page 18 Central Europe[Win1250]
+19 Page 19 Greek[Win1253]
+20 Page 20 Turkish[Win1254]
+21 Page 21 Hebrew[Win1255]
+22 Page 22 Vietnam[Win1258]
+23 Page 23 Baltic[Win1257]
+24 Page 24 Azerbaijani
+25-29 Reserved
+30 Thai[CP874]
+31-39 Reserved
+40 Page 25 Arabic [CP720]
+41 Page 26 Arabic [Win 1256]
+42 Page 27 Arabic (Farsi)
+43 Page 28 Arabic presentation forms B
+44-49 Reserved
+50 Page 29 Hindi_Devanagari
+252 Page 30 Japanese [CP932]
+253 Page 31 Korean [CP949]
+254 Page 32 Traditional Chinese [CP950]
+255 Page 33 Simplified Chinese [CP936]
+```
+
 #### printColumn(columnWidths: Array<number>, columnAligns: Array<number>, columnTexts: Array<string>, options: object: Promise<void>
 
 Print texts in column, Parameters as following:
