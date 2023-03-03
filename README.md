@@ -1,6 +1,6 @@
 # @pipechela/react-native-bluetooth-escpos-printer
 
-> Cloned and changed from https://github.com/januslo/react-native-bluetooth-escpos-printer
+> Cloned and changed from https://github.com/striletscode/react-native-bluetooth-escpos-printer
 
 React-Native plugin for the bluetooth ESC/POS & TSC printers.
 
@@ -24,7 +24,7 @@ Any questions or bug please raise a issue.
 
 ### Step 1
 
-Install via NPM [Check In NPM](https://www.npmjs.com/package/@lufke/react-native-bluetooth-escpos-printer)
+Install via NPM [Check In NPM](https://www.npmjs.com/package/@pipechela/react-native-bluetooth-escpos-printer)
 
 ```bash
 npm install @pipechela/react-native-bluetooth-escpos-printer --save
@@ -46,7 +46,7 @@ Ensure your build files match the following requirements:
 
 ```
 include ':react-native-bluetooth-escpos-printer'
-project(':react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/@brooons/react-native-bluetooth-escpos-printer/android')
+project(':react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/@pipechela/react-native-bluetooth-escpos-printer/android')
 ```
 2. (React Native 0.59 and lower) Add the *`react-native-bluetooth-escpos-printer`* as an dependency of your app in *`android/app/build.gradle`*:
 ```
@@ -64,7 +64,7 @@ dependencies {
 Refers to your JS files
 
 ```javascript
-import { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter } from '@brooons/react-native-bluetooth-escpos-printer';
+import { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter } from '@pipechela/react-native-bluetooth-escpos-printer';
 ```
 
 ## Usage and APIs
@@ -362,6 +362,10 @@ Options as following:
 - widthtimes - text font mul times in width, default `0`.
 - heigthTimes - text font mul times in height, default `0`.
 - fonttype - text font type, default `0`.
+
+Encoding and codepage for diferent languages 
+
+https://github.com/januslo/react-native-bluetooth-escpos-printer/issues/66#issuecomment-594432943
 
 #### printColumn(columnWidths: Array<number>, columnAligns: Array<number>, columnTexts: Array<string>, options: object: Promise<void>
 
