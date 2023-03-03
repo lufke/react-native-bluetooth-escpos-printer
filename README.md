@@ -1,8 +1,6 @@
-# @brooons/react-native-bluetooth-escpos-printer
+# @pipechela/react-native-bluetooth-escpos-printer
 
 > Cloned and changed from https://github.com/januslo/react-native-bluetooth-escpos-printer
-
-[![npm version](https://badge.fury.io/js/%40brooons%2Freact-native-bluetooth-escpos-printer.svg)](https://www.npmjs.com/package/@brooons/react-native-bluetooth-escpos-printer)
 
 React-Native plugin for the bluetooth ESC/POS & TSC printers.
 
@@ -26,10 +24,10 @@ Any questions or bug please raise a issue.
 
 ### Step 1
 
-Install via NPM [Check In NPM](https://www.npmjs.com/package/@brooons/react-native-bluetooth-escpos-printer)
+Install via NPM [Check In NPM](https://www.npmjs.com/package/@lufke/react-native-bluetooth-escpos-printer)
 
 ```bash
-npm install @brooons/react-native-bluetooth-escpos-printer --save
+npm install @pipechela/react-native-bluetooth-escpos-printer --save
 ```
 
 ### Step 2
@@ -37,7 +35,7 @@ npm install @brooons/react-native-bluetooth-escpos-printer --save
 Link the plugin to your RN project
 
 ```bash
-react-native link @brooons/react-native-bluetooth-escpos-printer
+react-native link @pipechela/react-native-bluetooth-escpos-printer
 ```
 
 ### Manual linking (Android)
